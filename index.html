@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex-box</title>
+    <style>
+      @font-face {
+        font-family: "aneela";
+        src: url(Coolvetica\ Rg\ It.otf);
+      }
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .main {
+        background-color: white;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("sl_072622_51930_05.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+
+      .box {
+        background-color: #2973b2;
+        width: 300px;
+        height: 300px;
+        border: 10px solid transparent;
+        box-shadow: 0 0 20px black;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .name {
+        font-family: aneela, serif;
+        color: white;
+        font-size: xx-large;
+        font-weight: lighter;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="box">
+        <h1 class="name">Aneela Tasneem</h1>
+      </div>
+    </div>
+  </body>
+</html>
