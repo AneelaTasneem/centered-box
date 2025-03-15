@@ -15,7 +15,7 @@ git clone https://github.com/your-username/repository-name.git
 
 2. Open index.html in a browser.
 Screenshot
-(Replace with actual image link)
+(![Image](https://github.com/user-attachments/assets/d9282bca-212e-457b-a9a7-b97581cba96d))
 
 Author
 👩‍💻 Aneela Tasneem
